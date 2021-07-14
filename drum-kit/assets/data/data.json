@@ -1,0 +1,47 @@
+[
+    {
+        "key": "65",
+        "kbd": "A",
+        "sound": "clap"
+    },
+    {
+        "key": "83",
+        "kbd": "S",
+        "sound": "hithat"
+    },
+    {
+        "key": "68",
+        "kbd": "D",
+        "sound": "kick"
+    },
+    {
+        "key": "70",
+        "kbd": "F",
+        "sound": "openhat"
+    },
+    {
+        "key": "71",
+        "kbd": "G",
+        "sound": "boom"
+    },
+    {
+        "key": "72",
+        "kbd": "H",
+        "sound": "ride"
+    },
+    {
+        "key": "74",
+        "kbd": "J",
+        "sound": "snare"
+    },
+    {
+        "key": "75",
+        "kbd": "K",
+        "sound": "tom"
+    },
+    {
+        "key": "76",
+        "kbd": "L",
+        "sound": "tink"
+    }
+]
