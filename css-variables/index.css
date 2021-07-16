@@ -1,0 +1,35 @@
+:root {
+    --base-color: #ffff00;
+    --blur: 10px;
+    --spacing: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.controls {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls input {
+    width: 10rem;
+}
+
+.js {
+    color: var(--base-color);
+}
+
+img {
+    padding: var(--spacing);
+    background-color: var(--base-color);
+    filter: blur(var(--blur));
+}
