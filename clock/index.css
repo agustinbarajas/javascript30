@@ -35,13 +35,48 @@ body {
 }
 
 .hand {
-    width: 50%;
+    width: 40%;
     height: .6rem;
     background-color: black;
     position: absolute;
     top: 50%;
+    right: 50%;
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all .05s;
     transition-timing-function: cubic-bezier(.1, 2.7, .58, 1);
+}
+
+.seconds-hand {
+    width: 46%;
+    background-color: red;
+    height: .3rem;
+    border-radius: 50% 25% 25% 50%;
+    border-left: 1rem solid red;
+    z-index: 2;
+}
+
+.minutes-hand {
+    width: 45%;
+    border-radius: 1rem;
+}
+
+.hours-hand {
+    width: 35%;
+    height: .2rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: .5rem solid black;
+}
+
+.center-circle {
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+    position: absolute;
+    top: 45.5%;
+    left: 45%;
+    border-radius: 50%;
+    border: .5rem solid black;
+    z-index: 1;
 }
